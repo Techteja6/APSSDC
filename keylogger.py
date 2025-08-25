@@ -71,5 +71,4 @@ stop_button = Button(root, text="Stop", command=stop_keylogger, state='disabled'
 stop_button.pack(side=RIGHT)
 
 root.geometry("250x250")
-
 root.mainloop()
