@@ -1,4 +1,3 @@
-
 import tkinter as tk
 from tkinter import *
 from pynput import keyboard
@@ -30,7 +29,6 @@ def on_press(key):
         )
     generate_json_file(keys_used)
 
-
 def on_release(key):
     global flag, keys_used, keys
     keys_used.append(
@@ -59,7 +57,6 @@ def stop_keylogger():
     start_button.config(state='normal')
     stop_button.config(state='disabled')
 
-
 root = Tk()
 root.title("Keylogger")
 
@@ -76,6 +73,7 @@ stop_button.pack(side=RIGHT)
 root.geometry("250x250")
 
 root.mainloop()
+
 
 
 
