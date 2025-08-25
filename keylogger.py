@@ -24,7 +24,6 @@ def on_press(key):
             {'Pressed': f'{key}'}
         )
         flag = True
-
     if flag == True:
         keys_used.append(
             {'Held': f'{key}'}
@@ -60,6 +59,7 @@ def stop_keylogger():
     start_button.config(state='normal')
     stop_button.config(state='disabled')
 
+
 root = Tk()
 root.title("Keylogger")
 
@@ -76,5 +76,6 @@ stop_button.pack(side=RIGHT)
 root.geometry("250x250")
 
 root.mainloop()
+
 
 
