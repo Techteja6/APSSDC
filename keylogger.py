@@ -2,7 +2,7 @@
 import tkinter as tk
 from tkinter import *
 from pynput import keyboard
-import json
+import Json
 
 keys_used = []
 flag = False
@@ -76,3 +76,4 @@ stop_button.pack(side=RIGHT)
 root.geometry("250x250")
 
 root.mainloop()
+
