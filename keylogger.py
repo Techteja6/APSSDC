@@ -6,7 +6,6 @@ import json
 keys_used = []
 flag = False
 keys = ""
-
 def generate_text_log(key):
     with open('key_log.txt', "w+") as keys:
         keys.write(key)
@@ -72,3 +71,4 @@ stop_button.pack(side=RIGHT)
 
 root.geometry("250x250")
 root.mainloop()
+
