@@ -72,5 +72,3 @@ stop_button.pack(side=RIGHT)
 
 root.geometry("250x250")
 root.mainloop()
-
-
