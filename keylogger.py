@@ -22,7 +22,7 @@ def on_press(key):
         keys_used.append(
             {'Pressed': f'{key}'}
         )
-        flag = True
+        flag = True:
     if flag == True:
         keys_used.append(
             {'Held': f'{key}'}
@@ -72,4 +72,5 @@ stop_button.pack(side=RIGHT)
 
 root.geometry("250x250")
 root.mainloop()
+
 
